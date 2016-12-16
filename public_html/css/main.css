@@ -116,8 +116,16 @@ body{
 }
 
 h1{
-    position: relative;
-    left:25%;
+    /*    position: relative;
+    left:25%;*/
+}
+
+.banner{
+    width: 100%;
+    background-color: pink;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-bottom: 5px;
 }
 
 
