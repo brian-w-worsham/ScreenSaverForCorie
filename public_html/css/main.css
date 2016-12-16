@@ -94,25 +94,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+img{
+    
+}
+
 #slides img {
     display: none;
 }
 
 .slide-pic{
-    height: 35%;
-    width: 35%;
-    position: relative;
-    left:30%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+}
+
+html, body, #wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper td{
+    vertical-align: middle;
+    text-align: center;
 }
 
 body{
-    background-image: url(seamless_paper_texture.png);
+    background-image: url(fabric_plaid_@2X.png);
 }
 
 .inner-section{
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url(seamless_paper_texture.png);
+    background-image: url(fabric_plaid_@2X.png);
 }
 
 h1{
@@ -122,10 +139,11 @@ h1{
 
 .banner{
     width: 100%;
-    background-color: pink;
-    padding-top: 0.1px;
-    padding-bottom: 0.1px;
-    margin-bottom: 5px;
+    background-image: url(pink_rice.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 
